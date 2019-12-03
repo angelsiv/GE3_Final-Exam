@@ -1,0 +1,3 @@
+C:\Unreal Projects\GE3_Final-Exam\final_exam\Intermediate\Build\Win64\UE4Editor\Development\final_exam\Definitions.final_exam.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
