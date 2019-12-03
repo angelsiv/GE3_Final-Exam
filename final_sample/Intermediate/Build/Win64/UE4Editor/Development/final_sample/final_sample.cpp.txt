@@ -1,0 +1,2 @@
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Definitions.final_sample.h
+c:\unreal projects\ge3_final-exam\final_sample\source\final_sample\final_sample.h
