@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-final_sample-0027.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\final_sampleEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Caltrop.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sample.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleCharacter.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleGameMode.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleHUD.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleProjectile.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\HealKit.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\PlayerHPWidget.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Caltrop.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sample.init.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleCharacter.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleGameMode.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleHUD.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\final_sampleProjectile.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\HealKit.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\PlayerHPWidget.gen.cpp.obj"
+"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Default.rc2.res"
+/OUT:"B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\UE4Editor-final_sample-0027.lib"
+/INCLUDE:IMPLEMENT_MODULE_final_sample

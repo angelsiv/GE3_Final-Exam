@@ -66,4 +66,32 @@
       <Filter>Source\final_sample</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\final_sample\PlayerHPWidget.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\final_sample\Caltrop.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\final_sample\HealKit.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\final_sample\LaunchPad.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\final_sample\PlayerHPWidget.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\final_sample\Caltrop.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\final_sample\HealKit.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\final_sample\LaunchPad.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodefinal_sampleCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FINAL_SAMPLE_API UClass* Z_Construct_UClass_Afinal_sampleProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	FINAL_SAMPLE_API UClass* Z_Construct_UClass_UPlayerHPWidget_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -69,6 +70,14 @@ void EmptyLinkFunctionForGeneratedCodefinal_sampleCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WidgetClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HP_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HP;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
@@ -177,6 +186,20 @@ void EmptyLinkFunctionForGeneratedCodefinal_sampleCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Afinal_sampleCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_WidgetClass_MetaData[] = {
+		{ "Category", "final_sampleCharacter" },
+		{ "ModuleRelativePath", "final_sampleCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_WidgetClass = { "WidgetClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Afinal_sampleCharacter, WidgetClass), Z_Construct_UClass_UPlayerHPWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_WidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_WidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_HP_MetaData[] = {
+		{ "Category", "final_sampleCharacter" },
+		{ "ModuleRelativePath", "final_sampleCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_HP = { "HP", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Afinal_sampleCharacter, HP), METADATA_PARAMS(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_HP_MetaData, ARRAY_COUNT(Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_HP_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "final_sampleCharacter" },
@@ -259,6 +282,8 @@ void EmptyLinkFunctionForGeneratedCodefinal_sampleCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_WidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_HP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afinal_sampleCharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -295,7 +320,7 @@ void EmptyLinkFunctionForGeneratedCodefinal_sampleCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Afinal_sampleCharacter, 1511289644);
+	IMPLEMENT_CLASS(Afinal_sampleCharacter, 2075677635);
 	template<> FINAL_SAMPLE_API UClass* StaticClass<Afinal_sampleCharacter>()
 	{
 		return Afinal_sampleCharacter::StaticClass();

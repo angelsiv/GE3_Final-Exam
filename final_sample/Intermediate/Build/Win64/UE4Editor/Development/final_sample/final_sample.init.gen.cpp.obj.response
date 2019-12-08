@@ -28,10 +28,32 @@
 /wd4838
 /we4668
 /I .
-/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample"
-/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Source"
-/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Source\final_sample"
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
 /I Runtime
+/I Runtime\UMG\Public
+/I Runtime\UMG
+/I Runtime\UMG\Public\Animation
+/I Runtime\UMG\Public\Binding
+/I Runtime\UMG\Public\Blueprint
+/I Runtime\UMG\Public\Components
+/I Runtime\UMG\Public\Editor
+/I Runtime\UMG\Public\Slate
+/I Runtime\Online
+/I Runtime\Online\HTTP\Public
+/I Runtime\Online\HTTP
+/I Runtime\Online\HTTP\Public\GenericPlatform
+/I Runtime\Online\HTTP\Public\Interfaces
+/I Runtime\Online\HTTP\Public\Windows
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
+/I Runtime\MovieScene\Public
+/I Runtime\MovieScene
+/I Runtime\MovieScene\Public\Channels
+/I Runtime\MovieScene\Public\Compilation
+/I Runtime\MovieScene\Public\Evaluation
+/I Runtime\MovieScene\Public\Evaluation\Blending
+/I Runtime\MovieScene\Public\Generators
+/I Runtime\MovieScene\Public\Sections
+/I Runtime\MovieScene\Public\Tracks
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -258,12 +280,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
 /I Editor\EditorSubsystem\Public
 /I Editor\EditorSubsystem
-/I Runtime\Online
-/I Runtime\Online\HTTP\Public
-/I Runtime\Online\HTTP
-/I Runtime\Online\HTTP\Public\GenericPlatform
-/I Runtime\Online\HTTP\Public\Interfaces
-/I Runtime\Online\HTTP\Public\Windows
 /I Runtime\UnrealAudio\Public
 /I Runtime\UnrealAudio
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting
@@ -323,42 +339,6 @@
 /I Editor\ContentBrowser
 /I Runtime\NetworkFileSystem\Public
 /I Runtime\NetworkFileSystem
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
-/I Runtime\UMG\Public
-/I Runtime\UMG
-/I Runtime\UMG\Public\Animation
-/I Runtime\UMG\Public\Binding
-/I Runtime\UMG\Public\Blueprint
-/I Runtime\UMG\Public\Components
-/I Runtime\UMG\Public\Editor
-/I Runtime\UMG\Public\Slate
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
-/I Runtime\MovieScene\Public
-/I Runtime\MovieScene
-/I Runtime\MovieScene\Public\Channels
-/I Runtime\MovieScene\Public\Compilation
-/I Runtime\MovieScene\Public\Evaluation
-/I Runtime\MovieScene\Public\Evaluation\Blending
-/I Runtime\MovieScene\Public\Generators
-/I Runtime\MovieScene\Public\Sections
-/I Runtime\MovieScene\Public\Tracks
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
-/I Runtime\TimeManagement\Public
-/I Runtime\TimeManagement
-/I Runtime\TimeManagement\Public\Widgets
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
-/I Runtime\MovieSceneTracks\Public
-/I Runtime\MovieSceneTracks
-/I Runtime\MovieSceneTracks\Public\Channels
-/I Runtime\MovieSceneTracks\Public\Evaluation
-/I Runtime\MovieSceneTracks\Public\Sections
-/I Runtime\MovieSceneTracks\Public\Tracks
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore
-/I Runtime\AnimationCore\Public
-/I Runtime\AnimationCore
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
-/I Runtime\PropertyPath\Public
-/I Runtime\PropertyPath
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
 /I Runtime\NavigationSystem\Public
 /I Runtime\NavigationSystem
@@ -429,6 +409,26 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore
+/I Runtime\AnimationCore\Public
+/I Runtime\AnimationCore
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement
+/I Runtime\TimeManagement\Public
+/I Runtime\TimeManagement
+/I Runtime\TimeManagement\Public\Widgets
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
+/I Runtime\MovieSceneTracks\Public
+/I Runtime\MovieSceneTracks
+/I Runtime\MovieSceneTracks\Public\Channels
+/I Runtime\MovieSceneTracks\Public\Evaluation
+/I Runtime\MovieSceneTracks\Public\Sections
+/I Runtime\MovieSceneTracks\Public\Tracks
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
+/I Runtime\PropertyPath\Public
+/I Runtime\PropertyPath
+/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample"
+/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Source"
+/I "B:\Unreal Projects\GE3_Final-Exam\final_sample\Source\final_sample"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality

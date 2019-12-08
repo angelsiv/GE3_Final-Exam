@@ -47,6 +47,9 @@ class Afinal_sampleCharacter : public ACharacter
 
 public:
 	Afinal_sampleCharacter();
+	
+	UPROPERTY(BlueprintReadOnly) float HP = 1.0f;
+	UPROPERTY(EditAnywhere) TSubclassOf<class UPlayerHPWidget> WidgetClass;
 
 protected:
 	virtual void BeginPlay();
