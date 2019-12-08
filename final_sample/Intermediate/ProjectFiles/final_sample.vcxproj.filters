@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\final_sample.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4A93648D-B397-4817-B965-B0A1B8C9CEBF}</UniqueIdentifier>
+      <UniqueIdentifier>{62AD7EA6-9EC1-4E1B-BD3C-66DA0DD31781}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\final_sample.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0D0B9347-2E0B-46D4-97C1-CFED0D86727A}</UniqueIdentifier>
+      <UniqueIdentifier>{E93690B2-5AEF-4211-B7E5-096185F676CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\final_sample">
-      <UniqueIdentifier>{114E4494-FCC4-4BFA-9A90-3006FFFEE565}</UniqueIdentifier>
+      <UniqueIdentifier>{A8558662-9AEB-4240-AC5D-0CD5455D8850}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\final_sample\Caltrop.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\Caltrop.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
     <None Include="..\..\Source\final_sample\final_sample.Build.cs">
       <Filter>Source\final_sample</Filter>
     </None>
@@ -65,33 +71,29 @@
     <ClInclude Include="..\..\Source\final_sample\final_sampleProjectile.h">
       <Filter>Source\final_sample</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\final_sample\PlayerHPWidget.h">
-      <Filter>Source\final_sample</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\final_sample\Caltrop.h">
-      <Filter>Source\final_sample</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\final_sample\HealKit.h">
-      <Filter>Source\final_sample</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\final_sample\LaunchPad.h">
-      <Filter>Source\final_sample</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\final_sample\PlayerHPWidget.cpp">
-      <Filter>Source\final_sample</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\final_sample\Caltrop.cpp">
-      <Filter>Source\final_sample</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\final_sample\HealKit.cpp">
       <Filter>Source\final_sample</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\HealKit.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\final_sample\LaunchPad.cpp">
       <Filter>Source\final_sample</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\LaunchPad.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\final_sample\PlayerHPWidget.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\PlayerHPWidget.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\final_sample\ProximityMine.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\ProximityMine.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
