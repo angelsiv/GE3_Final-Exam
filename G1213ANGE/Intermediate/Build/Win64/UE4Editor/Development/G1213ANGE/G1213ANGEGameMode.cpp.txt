@@ -1,0 +1,20 @@
+C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\Definitions.G1213ANGE.h
+c:\unreal projects\ge3_final-exam\g1213ange\source\g1213ange\G1213ANGEGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Inc\G1213ANGE\G1213ANGEGameMode.generated.h
+c:\unreal projects\ge3_final-exam\g1213ange\source\g1213ange\G1213ANGEHUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Inc\G1213ANGE\G1213ANGEHUD.generated.h
+c:\unreal projects\ge3_final-exam\g1213ange\source\g1213ange\G1213ANGECharacter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Inc\G1213ANGE\G1213ANGECharacter.generated.h

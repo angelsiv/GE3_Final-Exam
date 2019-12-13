@@ -8,36 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
 #ifdef FINAL_SAMPLE_HealKit_generated_h
 #error "HealKit.generated.h already included, missing '#pragma once' in HealKit.h"
 #endif
 #define FINAL_SAMPLE_HealKit_generated_h
 
-#define final_sample_Source_final_sample_HealKit_h_12_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execHeal) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_Character); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Heal(Z_Param_Character); \
-		P_NATIVE_END; \
-	}
-
-
-#define final_sample_Source_final_sample_HealKit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execHeal) \
-	{ \
-		P_GET_OBJECT(AActor,Z_Param_Character); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Heal(Z_Param_Character); \
-		P_NATIVE_END; \
-	}
-
-
+#define final_sample_Source_final_sample_HealKit_h_12_RPC_WRAPPERS
+#define final_sample_Source_final_sample_HealKit_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define final_sample_Source_final_sample_HealKit_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHealKit(); \

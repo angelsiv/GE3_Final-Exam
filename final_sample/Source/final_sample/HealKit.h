@@ -16,12 +16,16 @@ public:
 	AHealKit();
 
 	UPROPERTY(VisibleAnywhere) UStaticMeshComponent* MeshComponent;
+	//UPROPERTY(VisibleAnywhere) class UBoxComponent* BoxComponent;
 	UPROPERTY(BlueprintReadOnly) float HealAmount;
 	UPROPERTY(EditAnywhere) float Duration;
 	UPROPERTY(EditAnywhere) class USoundBase* HealSoundCue;
 	
-	UPROPERTY(BlueprintReadOnly) bool isHealing;
-	UPROPERTY(BlueprintReadOnly) class Afinal_sampleCharacter* Player = nullptr;
+	class Afinal_sampleCharacter* Player;
+	bool isHealing;
+	FTimerHandle timerHandle;
+	//float startTime;
+	float endTime;
 
 protected:
 	// Called when the game starts or when spawned
@@ -31,6 +35,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void NotifyHit(class UPrimitiveComponent* MyComp, AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit) override;
-	
-	UFUNCTION() void Heal(AActor* Character);
+	void Heal();
+	//virtual void NotifyActorBeginOverlap(AActor * OtherActor) override;
 };

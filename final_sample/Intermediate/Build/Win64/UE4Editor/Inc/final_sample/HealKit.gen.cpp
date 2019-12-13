@@ -17,51 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 	FINAL_SAMPLE_API UClass* Z_Construct_UClass_AHealKit();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_final_sample();
-	FINAL_SAMPLE_API UFunction* Z_Construct_UFunction_AHealKit_Heal();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	FINAL_SAMPLE_API UClass* Z_Construct_UClass_Afinal_sampleCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AHealKit::StaticRegisterNativesAHealKit()
 	{
-		UClass* Class = AHealKit::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "Heal", &AHealKit::execHeal },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AHealKit_Heal_Statics
-	{
-		struct HealKit_eventHeal_Parms
-		{
-			AActor* Character;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Character;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AHealKit_Heal_Statics::NewProp_Character = { "Character", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(HealKit_eventHeal_Parms, Character), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AHealKit_Heal_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AHealKit_Heal_Statics::NewProp_Character,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AHealKit_Heal_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "HealKit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AHealKit_Heal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AHealKit, nullptr, "Heal", sizeof(HealKit_eventHeal_Parms), Z_Construct_UFunction_AHealKit_Heal_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AHealKit_Heal_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AHealKit_Heal_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AHealKit_Heal_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AHealKit_Heal()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AHealKit_Heal_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AHealKit_NoRegister()
 	{
@@ -70,19 +30,9 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 	struct Z_Construct_UClass_AHealKit_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Player_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Player;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isHealing_MetaData[];
-#endif
-		static void NewProp_isHealing_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isHealing;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealSoundCue_MetaData[];
 #endif
@@ -107,33 +57,12 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_final_sample,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AHealKit_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AHealKit_Heal, "Heal" }, // 1544929450
-	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealKit_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "HealKit.h" },
 		{ "ModuleRelativePath", "HealKit.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealKit_Statics::NewProp_Player_MetaData[] = {
-		{ "Category", "HealKit" },
-		{ "ModuleRelativePath", "HealKit.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealKit_Statics::NewProp_Player = { "Player", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealKit, Player), Z_Construct_UClass_Afinal_sampleCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealKit_Statics::NewProp_Player_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealKit_Statics::NewProp_Player_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing_MetaData[] = {
-		{ "Category", "HealKit" },
-		{ "ModuleRelativePath", "HealKit.h" },
-	};
-#endif
-	void Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing_SetBit(void* Obj)
-	{
-		((AHealKit*)Obj)->isHealing = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing = { "isHealing", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AHealKit), &Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealKit_Statics::NewProp_HealSoundCue_MetaData[] = {
 		{ "Category", "HealKit" },
@@ -152,6 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHealKit_Statics::NewProp_HealAmount_MetaData[] = {
 		{ "Category", "HealKit" },
 		{ "ModuleRelativePath", "HealKit.h" },
+		{ "ToolTip", "UPROPERTY(VisibleAnywhere) class UBoxComponent* BoxComponent;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHealKit_Statics::NewProp_HealAmount = { "HealAmount", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealKit, HealAmount), METADATA_PARAMS(Z_Construct_UClass_AHealKit_Statics::NewProp_HealAmount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealKit_Statics::NewProp_HealAmount_MetaData)) };
@@ -164,8 +94,6 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHealKit_Statics::NewProp_MeshComponent = { "MeshComponent", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHealKit, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHealKit_Statics::NewProp_MeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHealKit_Statics::NewProp_MeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHealKit_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealKit_Statics::NewProp_Player,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealKit_Statics::NewProp_isHealing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealKit_Statics::NewProp_HealSoundCue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealKit_Statics::NewProp_Duration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHealKit_Statics::NewProp_HealAmount,
@@ -179,11 +107,11 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_AHealKit_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		0,
 		ARRAY_COUNT(Z_Construct_UClass_AHealKit_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -198,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeHealKit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHealKit, 1044321409);
+	IMPLEMENT_CLASS(AHealKit, 2306135325);
 	template<> FINAL_SAMPLE_API UClass* StaticClass<AHealKit>()
 	{
 		return AHealKit::StaticClass();
