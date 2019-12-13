@@ -66,4 +66,38 @@
       <Filter>Source\G1213ANGE</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\G1213ANGE\PlayerLevelWidget.h">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213ANGE\UnluckyTrap.h">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213ANGE\RarestCandy.h">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213ANGE\Cubemon.h">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213ANGE\CubemonLevel.h">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\G1213ANGE\PlayerLevelWidget.cpp">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213ANGE\UnluckyTrap.cpp">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213ANGE\RarestCandy.cpp">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213ANGE\Cubemon.cpp">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213ANGE\CubemonLevel.cpp">
+      <Filter>Source\G1213ANGE</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

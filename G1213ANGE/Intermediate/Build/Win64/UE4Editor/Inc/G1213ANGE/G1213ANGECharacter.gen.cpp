@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213ANGECharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	G1213ANGE_API UClass* Z_Construct_UClass_AG1213ANGEProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	G1213ANGE_API UClass* Z_Construct_UClass_UPlayerLevelWidget_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -69,6 +70,18 @@ void EmptyLinkFunctionForGeneratedCodeG1213ANGECharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SkillRadius_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SkillRadius;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WidgetClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerLevel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_PlayerLevel;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
@@ -177,6 +190,30 @@ void EmptyLinkFunctionForGeneratedCodeG1213ANGECharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213ANGECharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_SkillRadius_MetaData[] = {
+		{ "Category", "G1213ANGECharacter" },
+		{ "ModuleRelativePath", "G1213ANGECharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_SkillRadius = { "SkillRadius", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213ANGECharacter, SkillRadius), METADATA_PARAMS(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_SkillRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_SkillRadius_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_WidgetClass_MetaData[] = {
+		{ "Category", "G1213ANGECharacter" },
+		{ "ModuleRelativePath", "G1213ANGECharacter.h" },
+		{ "ToolTip", "ClampMin = 0, ClampMax = 99" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_WidgetClass = { "WidgetClass", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213ANGECharacter, WidgetClass), Z_Construct_UClass_UPlayerLevelWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_WidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_WidgetClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_PlayerLevel_MetaData[] = {
+		{ "Category", "G1213ANGECharacter" },
+		{ "ClampMax", "99" },
+		{ "ClampMin", "0" },
+		{ "ModuleRelativePath", "G1213ANGECharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_PlayerLevel = { "PlayerLevel", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AG1213ANGECharacter, PlayerLevel), METADATA_PARAMS(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_PlayerLevel_MetaData, ARRAY_COUNT(Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_PlayerLevel_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "G1213ANGECharacter" },
@@ -259,6 +296,9 @@ void EmptyLinkFunctionForGeneratedCodeG1213ANGECharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_SkillRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_WidgetClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_PlayerLevel,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AG1213ANGECharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -295,7 +335,7 @@ void EmptyLinkFunctionForGeneratedCodeG1213ANGECharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AG1213ANGECharacter, 3714813142);
+	IMPLEMENT_CLASS(AG1213ANGECharacter, 2504303128);
 	template<> G1213ANGE_API UClass* StaticClass<AG1213ANGECharacter>()
 	{
 		return AG1213ANGECharacter::StaticClass();

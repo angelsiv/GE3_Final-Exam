@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-G1213ANGE-0007.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\G1213ANGEEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGE.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGECharacter.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEGameMode.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEHUD.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEProjectile.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\PlayerLevelWidget.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGE.init.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGECharacter.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEGameMode.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEHUD.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\G1213ANGEProjectile.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\PlayerLevelWidget.gen.cpp.obj"
+"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\Default.rc2.res"
+/OUT:"C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-0007.lib"
+/INCLUDE:IMPLEMENT_MODULE_G1213ANGE

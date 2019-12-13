@@ -47,11 +47,23 @@ class AG1213ANGECharacter : public ACharacter
 
 public:
 	AG1213ANGECharacter();
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (ClampMin = "0", ClampMax = "99")) int PlayerLevel; //ClampMin = 0, ClampMax = 99
+	UPROPERTY(EditAnywhere) TSubclassOf<class UPlayerLevelWidget> WidgetClass;
+	
+	int CandyCollected = 0;
+	
+	const float ChanceA = 0.5f;
+	const float ChanceB = 0.3f;
+	const float ChanceC = 0.2f;
+
+	UPROPERTY(EditAnywhere) float SkillRadius = 500.0f;
 
 protected:
 	virtual void BeginPlay();
 
 public:
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -82,6 +94,10 @@ public:
 
 protected:
 	
+	void OnClosestCubemon();
+
+	void OnSurpriseBox();
+
 	/** Fires a projectile. */
 	void OnFire();
 

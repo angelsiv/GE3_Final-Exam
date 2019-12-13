@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\GE3_Final-Exam).
+  Creating makefile for G1213ANGEEditor (ini files are newer than makefile)
+  Parsing headers for G1213ANGEEditor
+    Running UnrealHeaderTool "C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\G1213ANGE.uproject" "C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\G1213ANGEEditor\Development\G1213ANGEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for G1213ANGEEditor in 6.6993752 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] G1213ANGECharacter.cpp
+    [2/4] UE4Editor-G1213ANGE-0047.lib
+       Creating library C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-0047.lib and object C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-0047.exp
+    [3/4] UE4Editor-G1213ANGE-0047.dll
+       Creating library C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-0047.suppressed.lib and object C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-0047.suppressed.exp
+    [4/4] G1213ANGEEditor.target
+  Total time in Parallel executor: 16.08 seconds
+  Total execution time: 25.39 seconds

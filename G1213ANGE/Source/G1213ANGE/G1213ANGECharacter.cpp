@@ -11,6 +11,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "PlayerLevelWidget.h"
+#include "Engine.h"
+#include "Cubemon.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -82,6 +85,7 @@ AG1213ANGECharacter::AG1213ANGECharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
 }
 
 void AG1213ANGECharacter::BeginPlay()
@@ -103,6 +107,16 @@ void AG1213ANGECharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+
+	//Display widget
+	if (WidgetClass != nullptr)
+	{
+		auto widget = CreateWidget<UPlayerLevelWidget>(UGameplayStatics::GetPlayerController(this, 0), WidgetClass);
+		widget->Player = this;
+		widget->AddToViewport();
+	}
+	PlayerLevel = 10;
+	
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -119,6 +133,12 @@ void AG1213ANGECharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AG1213ANGECharacter::OnFire);
+
+	//Surprise
+	PlayerInputComponent->BindAction("Surprise", IE_Pressed, this, &AG1213ANGECharacter::OnSurpriseBox);
+
+	//Closest Level Cubemon Skill
+	PlayerInputComponent->BindAction("Skill", IE_Pressed, this, &AG1213ANGECharacter::OnClosestCubemon);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -137,6 +157,62 @@ void AG1213ANGECharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AG1213ANGECharacter::LookUpAtRate);
 }
+
+void AG1213ANGECharacter::OnSurpriseBox()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, TEXT("Surprise!"));
+	auto random = FMath::FRand();
+
+	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, FString::SanitizeFloat(random));
+
+	if (random >= (1 - ChanceA))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, TEXT("Gained 1 Level & Opening a new box..."));
+		PlayerLevel++;
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, FString::SanitizeFloat(PlayerLevel));
+		OnSurpriseBox();
+	}
+	else if (random >= (1 - ChanceA - ChanceB))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, TEXT("Lose 1 Level & Opening a new box..."));
+		PlayerLevel--;
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, FString::SanitizeFloat(PlayerLevel));
+		OnSurpriseBox();
+	}
+	else if (random >= (1 - ChanceA - ChanceB - ChanceC))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::White, TEXT("Box is empty! Sorry!"));
+	}
+}
+
+void AG1213ANGECharacter::OnClosestCubemon()
+{
+	auto filter = TArray<TEnumAsByte<EObjectTypeQuery> >();
+	auto ignore = TArray<AActor*>();
+	auto out = TArray<AActor*>();
+
+	if (UKismetSystemLibrary::SphereOverlapActors(GetWorld(), GetActorLocation(), SkillRadius, filter, ACubemon::StaticClass(), ignore, out))
+	{
+		for (auto Actor : out)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, Actor->GetActorLabel());
+		}
+		auto smallestLevelDiff = out[0];
+		for (int i = 1; i < out.Num(); i++)
+		{
+			auto smallest = Cast<ACubemon>(smallestLevelDiff);
+			auto cubemon = Cast<ACubemon>(out[i]);
+			if ((PlayerLevel - cubemon->CubemonLevel) < (PlayerLevel - smallest->CubemonLevel))
+			{
+				smallestLevelDiff = out[i];
+			}
+		}
+		auto farCubemon = Cast<ACubemon>(smallestLevelDiff);
+		farCubemon->Destroy();
+	}
+
+}
+
 
 void AG1213ANGECharacter::OnFire()
 {

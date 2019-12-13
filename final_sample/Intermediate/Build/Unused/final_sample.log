@@ -2,16 +2,9 @@
   Creating makefile for final_sampleEditor (ini files are newer than makefile)
   Parsing headers for final_sampleEditor
     Running UnrealHeaderTool "C:\Unreal Projects\GE3_Final-Exam\final_sample\final_sample.uproject" "C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\final_sampleEditor\Development\final_sampleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for final_sampleEditor in 6.6033112 seconds
+  Reflection code generated for final_sampleEditor in 7.3225788 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] final_sample.init.gen.cpp
-    [2/6] HealKit.gen.cpp
-    [3/6] HealKit.cpp
-    [4/6] UE4Editor-final_sample-0002.lib
-       Creating library C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\UE4Editor-final_sample-0002.lib and object C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\UE4Editor-final_sample-0002.exp
-    [5/6] UE4Editor-final_sample-0002.dll
-       Creating library C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\UE4Editor-final_sample-0002.suppressed.lib and object C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\UE4Editor-final_sample-0002.suppressed.exp
-    [6/6] final_sampleEditor.target
-  Total time in Parallel executor: 12.86 seconds
-  Total execution time: 21.76 seconds
+  Building 1 action with 8 processes...
+    [1/1] final_sampleEditor.target
+  Total time in Parallel executor: 0.24 seconds
+  Total execution time: 10.04 seconds

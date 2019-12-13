@@ -1,0 +1,1236 @@
+﻿Log file open, 12/13/19 08:35:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: G1213ANGE
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.315857
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:656][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:659][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:659][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.13-13.35.36:659][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.13-13.35.36:659][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:659][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.13-13.35.36:659][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:659][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.13-13.35.36:660][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:660][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.13-13.35.36:661][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.13-13.35.36:661][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.13-13.35.36:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.13-13.35.36:674][  0]LogHAL: Display: Platform has ~ 12 GB [12757602304 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.13-13.35.36:674][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.13-13.35.36:674][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.13-13.35.36:675][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.13-13.35.36:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.13-13.35.36:676][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-13.35.36:677][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.13-13.35.36:677][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.13-13.35.36:677][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.13-13.35.36:677][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.13-13.35.36:677][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.13-13.35.36:677][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Config/Windows/Engine.ini]
+[2019.12.13-13.35.36:677][  0]LogInit: Computer: ANGELINE-PC
+[2019.12.13-13.35.36:677][  0]LogInit: User: Angeline
+[2019.12.13-13.35.36:677][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.13-13.35.36:677][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.13-13.35.36:677][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.12.13-13.35.36:677][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.13-13.35.36:677][  0]LogMemory: Process Physical Memory: 96.81 MB used, 96.82 MB peak
+[2019.12.13-13.35.36:677][  0]LogMemory: Process Virtual Memory: 88.99 MB used, 88.99 MB peak
+[2019.12.13-13.35.36:677][  0]LogMemory: Physical Memory: 7748.86 MB used,  4417.73 MB free, 12166.60 MB total
+[2019.12.13-13.35.36:677][  0]LogMemory: Virtual Memory: 4657.88 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.12.13-13.35.36:712][  0]LogInit: Using OS detected language (en-US).
+[2019.12.13-13.35.36:712][  0]LogInit: Using OS detected locale (en-CA).
+[2019.12.13-13.35.36:713][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.13-13.35.37:020][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.13-13.35.37:020][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.13-13.35.37:457][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.13-13.35.37:457][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.13-13.35.37:545][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.12.13-13.35.37:545][  0]LogD3D11RHI:       2010/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.13-13.35.37:556][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.12.13-13.35.37:556][  0]LogD3D11RHI:       128/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.13-13.35.37:560][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.13-13.35.37:560][  0]LogD3D11RHI:       0/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.13-13.35.37:560][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.13-13.35.37:605][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.13-13.35.37:605][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.12.13-13.35.37:605][  0]LogWindows: EnumDisplayDevices:
+[2019.12.13-13.35.37:605][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.12.13-13.35.37:606][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.13-13.35.37:607][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.13-13.35.37:607][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.13-13.35.37:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.12.13-13.35.37:607][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.13-13.35.37:607][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.13-13.35.37:607][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.12.13-13.35.37:654][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.13-13.35.37:660][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-13.35.37:660][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-13.35.37:660][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-13.35.37:673][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.13-13.35.38:059][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.13-13.35.38:076][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.13-13.35.38:093][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.13-13.35.38:111][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.13-13.35.38:129][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.13-13.35.38:146][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.13-13.35.38:163][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.13-13.35.38:182][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.13-13.35.38:191][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.13-13.35.38:292][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.13-13.35.38:293][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.13-13.35.38:297][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.13-13.35.38:355][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.13-13.35.38:355][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.13-13.35.38:384][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.13-13.35.38:384][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.13-13.35.38:400][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.13-13.35.38:414][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.13-13.35.38:429][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.13-13.35.38:445][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.13-13.35.38:503][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.13-13.35.38:503][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.13-13.35.38:503][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.13-13.35.38:518][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.13-13.35.38:590][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Intermediate/Shaders/WorkingDirectory/7848/).
+[2019.12.13-13.35.38:590][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Angeline/AppData/Local/Temp/UnrealShaderWorkingDir/C3AE1EF042755CABE36D489D7598BEB8/'.
+[2019.12.13-13.35.38:593][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.13-13.35.38:593][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.13-13.35.38:593][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.13-13.35.39:403][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: Loaded boot cache 0.20s 74MB C:/Users/Angeline/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Angeline/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.13-13.35.39:608][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.13-13.35.39:622][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.13-13.35.39:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.13-13.35.39:622][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.13-13.35.39:636][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Angeline/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.13-13.35.39:636][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.13-13.35.39:636][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.13-13.35.39:665][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.13-13.35.39:666][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.13-13.35.39:666][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.13-13.35.39:778][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
+[2019.12.13-13.35.40:237][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.13-13.35.40:404][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.13-13.35.40:404][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.13-13.35.40:404][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.13-13.35.40:404][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.13-13.35.40:404][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.13-13.35.40:418][  0]LogNetVersion: G1213ANGE 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2723187242)
+[2019.12.13-13.35.40:924][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.053851 seconds
+[2019.12.13-13.35.40:931][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.13-13.35.40:931][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.13-13.35.40:931][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.13-13.35.42:719][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.13-13.35.42:733][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.13-13.35.43:275][  0]SourceControl: Source control is disabled
+[2019.12.13-13.35.43:275][  0]SourceControl: Source control is disabled
+[2019.12.13-13.35.43:278][  0]SourceControl: Source control is disabled
+[2019.12.13-13.35.43:279][  0]SourceControl: Source control is disabled
+[2019.12.13-13.35.43:387][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.13-13.35.43:485][  0]LogOcInput: OculusInput pre-init called
+[2019.12.13-13.35.44:322][  0]LogEngine: Initializing Engine...
+[2019.12.13-13.35.44:323][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.13-13.35.44:325][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.12.13-13.35.44:568][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.13-13.35.44:587][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.13-13.35.44:616][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-13.35.44:707][  0]LogInit: FAudioDevice initialized.
+[2019.12.13-13.35.44:708][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.13-13.35.44:788][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/Angeline/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.13-13.35.44:796][  0]LogInit: Texture streaming: Enabled
+[2019.12.13-13.35.44:822][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.13-13.35.44:823][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={3B81E233-425E-39C2-5FB3-9E87F1F5962C}
+[2019.12.13-13.35.44:851][  0]LogInit: Transaction tracking system initialized
+[2019.12.13-13.35.44:890][  0]BlueprintLog: New page: Editor Load
+[2019.12.13-13.35.45:012][  0]LocalizationService: Localization service is disabled
+[2019.12.13-13.35.45:392][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/' took 0.01s
+[2019.12.13-13.35.45:392][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.13-13.35.45:392][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.13-13.35.45:649][  0]SourceControl: Source control is disabled
+[2019.12.13-13.35.45:649][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.13-13.35.45:650][  0]LightingResults: New page: Lighting Build
+[2019.12.13-13.35.45:653][  0]MapCheck: New page: Map Check
+[2019.12.13-13.35.45:653][  0]LightingResults: New page: Lighting Build
+[2019.12.13-13.35.45:685][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.12.13-13.35.45:798][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-13.35.45:809][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.13-13.35.45:840][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.12.13-13.35.45:841][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.13-13.35.45:841][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.162ms to complete.
+[2019.12.13-13.35.45:841][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.192
+[2019.12.13-13.35.45:949][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.35.45:957][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.35.45:965][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.35.45:972][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.35.46:060][  0]LogCollectionManager: Loaded 0 collections in 0.003259 seconds
+[2019.12.13-13.35.46:095][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/Collections/' took 0.01s
+[2019.12.13-13.35.46:095][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/Developers/Angeline/Collections/' took 0.01s
+[2019.12.13-13.35.46:095][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/Collections/' took 0.00s
+[2019.12.13-13.35.46:095][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.13-13.35.46:105][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.35.46:115][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.13-13.35.46:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:123][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:126][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:129][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:144][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:152][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:156][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:157][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:159][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:161][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-13.35.46:257][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.13-13.35.46:264][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.13-13.35.46:269][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.13-13.35.46:274][  0]LogSlate: Took 0.000887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.13-13.35.46:369][  0]LogRenderer: Reallocating scene render targets to support 848x456 Format 10 NumSamples 1 (Frame:1).
+[2019.12.13-13.35.46:576][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.13-13.35.46:576][  0]LogLoad: (Engine Initialization) Total time: 11.98 seconds
+[2019.12.13-13.35.46:576][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.13-13.35.46:617][  0]LogAssetRegistry: Asset discovery search completed in 6.8607 seconds
+[2019.12.13-13.35.46:619][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.13-13.35.46:619][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000099 seconds (updated 0 objects)
+[2019.12.13-13.35.46:620][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.13-13.35.46:650][  0]LogSlate: Took 0.002216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.13-13.35.48:062][ 69]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.13-13.35.50:212][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-13.36.09:787][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-13.36.50:119][ 20]LogHotReload: New module detected: UE4Editor-G1213ANGE-0007.dll
+[2019.12.13-13.36.51:474][ 25]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.36.51:526][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.12.13-13.36.52:302][ 25]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.36.52:305][ 25]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.36.52:440][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.12.13-13.36.52:452][ 25]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.36.52:461][ 25]Display: HotReload took  1.0s.
+[2019.12.13-13.36.58:690][325]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2019.12.13-13.36.59:260][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-13.37.03:102][739]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.13-13.37.03:468][739]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.12.13-13.37.06:109][824]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.13-13.37.06:190][824]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.13-13.37.06:608][824]LogSlate: Took 0.000939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.13-13.37.15:211][501]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.13-13.37.17:710][672]LogRenderer: Reallocating scene render targets to support 900x540 Format 10 NumSamples 1 (Frame:1).
+[2019.12.13-13.37.19:089][759]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.13-13.37.19:364][759]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.12.13-13.37.21:638][897]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacter88AE98ED45A62A15372E97BEA89EB56B.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.37.23:860][ 39]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacter7294E7C54477AF02D58BBAA4C7D1D712.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.37.25:616][169]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.13-13.37.27:050][328]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.13-13.37.27:050][328]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.13-13.37.27:223][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.12.13-13.37.27:435][341]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMapA15B8E6D48128FF36B3F4BA737961F50.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-13.37.28:894][341]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMap_BuiltDataBD0666E94F123D0538F2DDB900FCF171.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.13-13.37.29:855][443]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-13.37.29:869][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.37.29:871][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-13.37.29:871][443]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 3:37:29 AM)
+[2019.12.13-13.37.29:884][443]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-13.37.29:898][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013855s)
+[2019.12.13-13.37.29:899][443]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-13.37.29:899][443]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2019.12.13-13.37.29:899][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015277s)
+[2019.12.13-13.37.29:936][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.12.13-13.37.29:951][443]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-13.37.30:037][443]LogInit: FAudioDevice initialized.
+[2019.12.13-13.37.30:079][443]LogLoad: Game class is 'G1213ANGEGameMode'
+[2019.12.13-13.37.30:082][443]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.13-08.37.30
+[2019.12.13-13.37.30:082][443]LogWorld: Bringing up level for play took: 0.001883
+[2019.12.13-13.37.30:103][443]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.12.13-13.37.30:108][443]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.12.13-13.37.30:109][443]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.12.13-13.37.30:116][443]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.135
+[2019.12.13-13.37.30:116][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.37.33:051][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.37.33:053][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.37.33:086][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-13.37.33:087][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.37.33:133][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.37.33:161][743]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.12.13-13.37.33:193][744]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.12.13-13.37.34:224][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-13.37.34:372][845]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.37.34:882][845]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.12.13-13.37.36:920][ 35]LogSlate: Took 0.001864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.12.13-13.38.13:185][607]LogHotReload: New module detected: UE4Editor-G1213ANGE-0008.dll
+[2019.12.13-13.38.14:534][612]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.38.14:638][612]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
+[2019.12.13-13.38.14:638][612]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.38.14:915][612]LogClass: Could not find existing class PlayerLevelWidget in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.38.14:945][612]LogHotReload: Re-instancing PlayerLevelWidget after hot-reload.
+[2019.12.13-13.38.15:451][612]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.38.15:452][612]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.38.15:457][612]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.38.15:573][612]LogUObjectHash: Compacting FUObjectHashTables data took   7.07ms
+[2019.12.13-13.38.15:573][612]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.38.15:584][612]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.38.15:595][612]Display: HotReload took  1.1s.
+[2019.12.13-13.38.33:838][507]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.38.33:981][507]LogUObjectHash: Compacting FUObjectHashTables data took   9.24ms
+[2019.12.13-13.38.34:343][507]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.FirstPersonCamera) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.R_MotionController) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.L_MotionController) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.38.34:348][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.Arrow) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.38.34:349][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.CollisionCylinder) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.CharMoveComp) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.CharacterMesh0) Component already registered.
+[2019.12.13-13.38.34:350][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.CharacterMesh1P) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.FP_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_1.VR_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.38.34:351][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.38.34:352][507]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.38.35:228][567]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.39.05:515][205]LogHotReload: New module detected: UE4Editor-G1213ANGE-0009.dll
+[2019.12.13-13.39.06:876][210]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.39.06:939][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.12.13-13.39.06:940][210]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.39.07:201][210]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.39.07:222][210]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.39.07:656][210]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.39.07:657][210]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.39.07:665][210]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.39.07:780][210]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2019.12.13-13.39.07:780][210]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.39.07:793][210]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.39.07:802][210]Display: HotReload took  0.9s.
+[2019.12.13-13.39.19:369][681]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.39.19:456][681]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2019.12.13-13.39.19:481][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_20) Not registered. Aborting.
+[2019.12.13-13.39.19:481][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_10) Not registered. Aborting.
+[2019.12.13-13.39.19:481][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_52) Not registered. Aborting.
+[2019.12.13-13.39.19:486][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_19) Not registered. Aborting.
+[2019.12.13-13.39.19:486][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_9) Not registered. Aborting.
+[2019.12.13-13.39.19:486][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_48) Not registered. Aborting.
+[2019.12.13-13.39.19:607][681]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2019.12.13-13.39.19:874][681]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2019.12.13-13.39.19:874][681]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.39.20:351][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.FirstPersonCamera) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.R_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.L_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.Arrow) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.39.20:352][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.39.20:353][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.39.20:353][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.CollisionCylinder) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.39.20:354][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.CharMoveComp) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.CharacterMesh0) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.CharacterMesh1P) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.FP_Gun) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_2.VR_Gun) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.39.20:355][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.39.20:356][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.39.20:356][681]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.41.18:737][777]LogHotReload: New module detected: UE4Editor-G1213ANGE-0010.dll
+[2019.12.13-13.41.20:421][783]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.41.20:484][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.12.13-13.41.20:484][783]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.41.20:743][783]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.41.20:767][783]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.41.21:161][783]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.41.21:162][783]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.41.21:167][783]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.41.21:271][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.12.13-13.41.21:271][783]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.41.21:283][783]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.41.21:293][783]Display: HotReload took  0.9s.
+[2019.12.13-13.41.23:155][789]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.13-13.41.23:155][789]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.13-13.41.26:814][138]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.41.26:899][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.12.13-13.41.26:919][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_22) Not registered. Aborting.
+[2019.12.13-13.41.26:919][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_12) Not registered. Aborting.
+[2019.12.13-13.41.26:919][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_60) Not registered. Aborting.
+[2019.12.13-13.41.26:927][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_21) Not registered. Aborting.
+[2019.12.13-13.41.26:927][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_11) Not registered. Aborting.
+[2019.12.13-13.41.26:927][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_56) Not registered. Aborting.
+[2019.12.13-13.41.27:051][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.12.13-13.41.27:340][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.12.13-13.41.27:341][138]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.FirstPersonCamera) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.R_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.L_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.41.27:841][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.Arrow) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.41.27:842][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.CollisionCylinder) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.CharMoveComp) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.FP_Gun) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.VR_Gun) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.CharacterMesh1P) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_3.CharacterMesh0) Component already registered.
+[2019.12.13-13.41.27:843][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.41.27:844][138]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.41.27:844][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.41.27:844][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.41.27:844][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.41.27:844][138]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.43.40:684][652]LogHotReload: New module detected: UE4Editor-G1213ANGE-0011.dll
+[2019.12.13-13.43.42:372][658]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.43.42:440][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.12.13-13.43.42:440][658]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.43.42:699][658]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.43.42:731][658]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.43.43:414][658]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.43.43:416][658]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0019 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.43.43:421][658]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.43.43:515][658]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.12.13-13.43.43:516][658]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.43.43:527][658]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.43.43:540][658]Display: HotReload took  1.2s.
+[2019.12.13-13.43.50:888][ 64]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.43.50:990][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2019.12.13-13.43.51:017][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_24) Not registered. Aborting.
+[2019.12.13-13.43.51:017][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_14) Not registered. Aborting.
+[2019.12.13-13.43.51:017][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_68) Not registered. Aborting.
+[2019.12.13-13.43.51:024][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_23) Not registered. Aborting.
+[2019.12.13-13.43.51:024][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_13) Not registered. Aborting.
+[2019.12.13-13.43.51:024][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_64) Not registered. Aborting.
+[2019.12.13-13.43.51:147][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2019.12.13-13.43.51:441][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.12.13-13.43.51:441][ 64]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.FirstPersonCamera) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.R_MotionController) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.L_MotionController) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.43.51:957][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.43.51:958][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.43.51:958][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.43.51:958][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.Arrow) Component already registered.
+[2019.12.13-13.43.51:958][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.43.51:958][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.43.51:959][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.43.51:959][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.CollisionCylinder) Component already registered.
+[2019.12.13-13.43.51:960][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.CharMoveComp) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.CharacterMesh0) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.CharacterMesh1P) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.FP_Gun) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_4.VR_Gun) Component already registered.
+[2019.12.13-13.43.51:961][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.43.51:962][ 64]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.44.55:647][328]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.13-13.44.58:540][510]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/NewBlueprint.NewBlueprint
+[2019.12.13-13.45.10:497][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.12.13-13.45.11:602][737]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.13-13.45.11:707][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.12.13-13.46.13:399][ 34]LogHotReload: New module detected: UE4Editor-G1213ANGE-0012.dll
+[2019.12.13-13.46.15:096][ 40]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.46.15:157][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.12.13-13.46.15:157][ 40]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.46.15:419][ 40]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.46.15:455][ 40]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.46.16:095][ 40]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.46.16:096][ 40]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.46.16:104][ 40]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.46.16:214][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.12.13-13.46.16:214][ 40]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.46.16:225][ 40]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.46.16:235][ 40]Display: HotReload took  1.1s.
+[2019.12.13-13.46.22:155][416]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.46.22:240][416]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2019.12.13-13.46.22:263][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_26) Not registered. Aborting.
+[2019.12.13-13.46.22:263][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_16) Not registered. Aborting.
+[2019.12.13-13.46.22:263][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_76) Not registered. Aborting.
+[2019.12.13-13.46.22:270][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_25) Not registered. Aborting.
+[2019.12.13-13.46.22:270][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_15) Not registered. Aborting.
+[2019.12.13-13.46.22:270][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_72) Not registered. Aborting.
+[2019.12.13-13.46.22:395][416]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2019.12.13-13.46.22:698][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.12.13-13.46.22:698][416]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.FirstPersonCamera) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.R_MotionController) Component already registered.
+[2019.12.13-13.46.23:221][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.L_MotionController) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.Arrow) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.46.23:222][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.46.23:223][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.46.23:223][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.46.23:223][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.46.23:223][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.CollisionCylinder) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.CharMoveComp) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.FP_Gun) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.VR_Gun) Component already registered.
+[2019.12.13-13.46.23:224][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.CharacterMesh1P) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_5.CharacterMesh0) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.46.23:225][416]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.48.37:463][ 67]LogHotReload: New module detected: UE4Editor-G1213ANGE-0013.dll
+[2019.12.13-13.48.38:813][ 72]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.48.38:894][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.12.13-13.48.38:895][ 72]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.48.39:915][ 72]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.48.39:942][ 72]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.48.40:427][ 72]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.48.40:428][ 72]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.48.40:435][ 72]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.48.40:535][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.12.13-13.48.40:536][ 72]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.48.40:546][ 72]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.48.40:558][ 72]Display: HotReload took  1.7s.
+[2019.12.13-13.48.51:047][917]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.48.51:160][917]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.12.13-13.48.51:514][917]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:520][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.FirstPersonCamera) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.R_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.L_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.Arrow) Component already registered.
+[2019.12.13-13.48.51:521][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.48.51:522][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.CollisionCylinder) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.CharMoveComp) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.CharacterMesh0) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.CharacterMesh1P) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.FP_Gun) Component already registered.
+[2019.12.13-13.48.51:523][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_6.VR_Gun) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.48.51:524][917]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.48.58:277][635]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.13-13.49.41:068][685]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.13-13.49.41:356][685]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.12.13-13.49.41:441][685]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacterA2E4F8D84724111F1B351EA3292C1AB2.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.49.41:585][687]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacter042397944ABCA892B6E2058CE1C96F4A.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.49.44:717][940]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.49.51:911][714]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.12.13-13.49.52:210][714]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMap53028B5A4C63ADAA9C22BCB008F1B58C.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-13.49.53:313][714]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMap_BuiltData582EB188490CA4B39C36C3A802059EC7.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.13-13.50.21:597][839]LogHotReload: New module detected: UE4Editor-G1213ANGE-0014.dll
+[2019.12.13-13.50.22:957][844]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.50.23:032][844]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2019.12.13-13.50.23:032][844]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.50.23:299][844]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.50.23:334][844]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.50.23:949][844]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.50.23:949][844]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.50.23:954][844]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.50.24:060][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.12.13-13.50.24:060][844]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.50.24:072][844]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.50.24:082][844]Display: HotReload took  1.1s.
+[2019.12.13-13.50.26:206][909]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-13.50.26:231][909]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.26:232][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-13.50.26:235][909]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 3:50:26 AM)
+[2019.12.13-13.50.26:235][909]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-13.50.26:251][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017346s)
+[2019.12.13-13.50.26:255][909]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-13.50.26:258][909]LogPlayLevel: PIE: World Init took: (0.006740s)
+[2019.12.13-13.50.26:258][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024431s)
+[2019.12.13-13.50.26:339][909]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2019.12.13-13.50.26:361][909]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-13.50.26:486][909]LogInit: FAudioDevice initialized.
+[2019.12.13-13.50.26:524][909]LogLoad: Game class is 'G1213ANGEGameMode'
+[2019.12.13-13.50.26:527][909]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.13-08.50.26
+[2019.12.13-13.50.26:527][909]LogWorld: Bringing up level for play took: 0.002717
+[2019.12.13-13.50.26:552][909]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.572
+[2019.12.13-13.50.26:553][909]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.28:968][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.28:968][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.50.29:007][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-13.50.29:008][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.29:057][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.50.29:065][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.12.13-13.50.29:098][186]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.12.13-13.50.48:855][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-13.50.50:791][523]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.13-13.50.55:319][998]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.13-13.50.55:661][998]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.12.13-13.50.55:741][998]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacterC207629B45C6D211EBC720A1C5033B4B.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.50.56:130][ 26]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonCharacterCAD16A99424194B4CF07EE9F2B5A0A4B.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.13-13.50.58:841][337]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-13.50.58:857][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.58:857][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-13.50.58:857][337]PIE: New page: PIE session: FirstPersonExampleMap (Dec 13, 2019, 3:50:58 AM)
+[2019.12.13-13.50.58:857][337]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.13-13.50.58:872][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015247s)
+[2019.12.13-13.50.58:873][337]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.13-13.50.58:874][337]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2019.12.13-13.50.58:874][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016766s)
+[2019.12.13-13.50.58:924][337]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.12.13-13.50.58:939][337]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.13-13.50.59:072][337]LogInit: FAudioDevice initialized.
+[2019.12.13-13.50.59:106][337]LogLoad: Game class is 'G1213ANGEGameMode'
+[2019.12.13-13.50.59:110][337]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.13-08.50.59
+[2019.12.13-13.50.59:111][337]LogWorld: Bringing up level for play took: 0.003158
+[2019.12.13-13.50.59:126][337]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.146
+[2019.12.13-13.50.59:127][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.59:740][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.59:741][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.50.59:774][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-13.50.59:775][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.13-13.50.59:826][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-13.50.59:831][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.12.13-13.50.59:853][403]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.12.13-13.59.18:795][628]LogHotReload: New module detected: UE4Editor-G1213ANGE-0015.dll
+[2019.12.13-13.59.20:154][633]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-13.59.20:226][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.12.13-13.59.20:227][633]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-13.59.20:740][633]LogClass: Could not find existing class G1213ANGECharacter in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-13.59.20:766][633]LogHotReload: Re-instancing G1213ANGECharacter after hot-reload.
+[2019.12.13-13.59.21:291][633]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-13.59.21:291][633]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2019.12.13-13.59.21:298][633]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-13.59.21:429][633]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2019.12.13-13.59.21:429][633]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-13.59.21:442][633]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2738 classes and 663 folders.
+[2019.12.13-13.59.21:453][633]Display: HotReload took  1.3s.
+[2019.12.13-13.59.25:015][793]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel
+[2019.12.13-13.59.25:124][793]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2019.12.13-13.59.25:171][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_32) Not registered. Aborting.
+[2019.12.13-13.59.25:171][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_22) Not registered. Aborting.
+[2019.12.13-13.59.25:171][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_100) Not registered. Aborting.
+[2019.12.13-13.59.25:176][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_31) Not registered. Aborting.
+[2019.12.13-13.59.25:177][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_21) Not registered. Aborting.
+[2019.12.13-13.59.25:177][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_96) Not registered. Aborting.
+[2019.12.13-13.59.25:328][793]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2019.12.13-13.59.25:612][793]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.12.13-13.59.25:612][793]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/WBP_PlayerLevel.WBP_PlayerLevel
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.MuzzleLocation) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.FirstPersonCamera) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FirstPersonCamera) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.L_MotionController) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.R_MotionController) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.L_MotionController) Component already registered.
+[2019.12.13-13.59.26:125][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.R_MotionController) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.Arrow) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.59.26:126][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.DrawFrustumComponent_0) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.StaticMeshComponent_0) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.CollisionCylinder) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.CharMoveComp) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.59.26:127][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.VR_Gun) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.FP_Gun) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.CharacterMesh1P) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_10.CharacterMesh0) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.VR_Gun) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.FP_Gun) Component already registered.
+[2019.12.13-13.59.26:128][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh1P) Component already registered.
+[2019.12.13-13.59.26:129][793]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2019.12.13-13.59.31:108][ 85]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter
+[2019.12.13-13.59.31:172][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.12.13-13.59.31:187][ 85]LogUObjectGlobals: Display: ReloadPackage failed to find a replacement object for 'Default__FirstPersonCharacter_C:CollisionCylinder.BodySetup_0' (transient) in the new package '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'. Any existing references to this object will be nulled out.
+[2019.12.13-13.59.31:190][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_13) Not registered. Aborting.
+[2019.12.13-13.59.31:190][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_5) Not registered. Aborting.
+[2019.12.13-13.59.31:190][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_29) Not registered. Aborting.
+[2019.12.13-13.59.31:190][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.13-13.59.31:333][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.12.13-13.59.31:732][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.12.13-13.59.31:733][ 85]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.13-13.59.34:938][239]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.13-13.59.34:942][239]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.13-13.59.40:594][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.12.13-13.59.40:837][567]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMap92E5D04D4CA4F02224C1B788C25D7B2F.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.12.13-13.59.41:884][567]LogSavePackage: Moving '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Saved/FirstPersonExampleMap_BuiltData3192F8A44E83656D9C277FACE467B1BB.tmp' to '../../../../../../Unreal Projects/GE3_Final-Exam/G1213ANGE/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.13-13.59.42:482][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.12.13-13.59.54:841][326]Candidate modules for hot reload:
+[2019.12.13-13.59.54:841][326]  G1213ANGE
+[2019.12.13-13.59.54:842][326]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=G1213ANGE,9484 Win64 Development -TargetType=Editor -Project="C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/G1213ANGE.uproject" "C:/Unreal Projects/GE3_Final-Exam/G1213ANGE/G1213ANGE.uproject"  -IgnoreJunk]
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: New page: Compilation - Dec 13, 2019, 4:00:07 AM
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\GE3_Final-Exam).
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Creating makefile for G1213ANGEEditor (.uproject file is newer)
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Parsing headers for G1213ANGEEditor
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   Running UnrealHeaderTool "C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\G1213ANGE.uproject" "C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\G1213ANGEEditor\Development\G1213ANGEEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Reflection code generated for G1213ANGEEditor in 7.0988582 seconds
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [1/6] G1213ANGE.init.gen.cpp
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [2/6] UnluckyTrap.cpp
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [3/6] UnluckyTrap.gen.cpp
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [4/6] UE4Editor-G1213ANGE-9484.lib
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:      Creating library C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-9484.lib and object C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-9484.exp
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [5/6] UE4Editor-G1213ANGE-9484.dll
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:      Creating library C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-9484.suppressed.lib and object C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\UE4Editor-G1213ANGE-9484.suppressed.exp
+[2019.12.13-14.00.07:101][326]CompilerResultsLog:   [6/6] G1213ANGEEditor.target
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Total time in Parallel executor: 2.51 seconds
+[2019.12.13-14.00.07:101][326]CompilerResultsLog: Total execution time: 12.14 seconds
+[2019.12.13-14.00.07:101][326]LogMainFrame: MainFrame: Module compiling took 12.262 seconds
+[2019.12.13-14.00.07:144][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.12.13-14.00.07:144][326]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-14.00.07:422][326]LogClass: Could not find existing class UnluckyTrap in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-14.00.07:435][326]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-14.00.07:436][326]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0009 seconds. Added 6 classes and 2 folders.
+[2019.12.13-14.00.07:443][326]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.12.13-14.00.07:528][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.12.13-14.00.07:528][326]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-14.00.07:539][326]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2739 classes and 663 folders.
+[2019.12.13-14.00.07:546][326]Display: HotReload took 12.7s.
+[2019.12.13-14.00.07:547][326]Warning: HotReload operation took 12.7s.
+[2019.12.13-14.00.07:842][326]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.12.13-14.00.08:270][327]LogHotReload: New module detected: UE4Editor-G1213ANGE-9484.dll
+[2019.12.13-14.00.08:292][328]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-14.00.08:381][328]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.12.13-14.00.08:381][328]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-14.00.08:385][328]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (loaded)
+[2019.12.13-14.00.08:386][328]LogContentBrowser: Native class hierarchy updated for 'G1213ANGE' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.12.13-14.00.08:391][328]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.12.13-14.00.08:430][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.12.13-14.00.08:430][328]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.13-14.00.08:446][328]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2739 classes and 663 folders.
+[2019.12.13-14.00.08:456][328]Display: HotReload took  0.2s.
+[2019.12.13-14.03.33:638][157]LogHotReload: New module detected: UE4Editor-G1213ANGE-0017.dll
+[2019.12.13-14.03.34:995][162]LogHotReload: Starting Hot-Reload from IDE
+[2019.12.13-14.03.35:095][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.12.13-14.03.35:095][162]LogBlueprintActionDatabase: Requesting refresh due to module change: G1213ANGE (unloaded)
+[2019.12.13-14.03.35:364][162]LogClass: Could not find existing class PlayerLevelWidget in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-14.03.35:364][162]LogClass: Could not find existing class UnluckyTrap in package /Script/G1213ANGE for HotReload, assuming new class
+[2019.12.13-14.03.35:365][162]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.12.13-14.03.35:365][162]LogWindows: Windows GetLastError: The operation completed successfully. (0)
