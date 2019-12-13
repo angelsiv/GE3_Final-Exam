@@ -1,6 +1,6 @@
-B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Definitions.final_sample.h
-b:\unreal projects\ge3_final-exam\final_sample\source\final_sample\LaunchPad.h
-B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample\LaunchPad.generated.h
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Definitions.final_sample.h
+c:\unreal projects\ge3_final-exam\final_sample\source\final_sample\LaunchPad.h
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample\LaunchPad.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
@@ -678,5 +678,5 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
-b:\unreal projects\ge3_final-exam\final_sample\source\final_sample\final_sampleCharacter.h
-B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample\final_sampleCharacter.generated.h
+c:\unreal projects\ge3_final-exam\final_sample\source\final_sample\final_sampleCharacter.h
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Inc\final_sample\final_sampleCharacter.generated.h

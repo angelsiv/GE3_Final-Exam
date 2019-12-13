@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\final_sample.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{62AD7EA6-9EC1-4E1B-BD3C-66DA0DD31781}</UniqueIdentifier>
+      <UniqueIdentifier>{A6C9807A-C668-49D5-874A-9904FC5E41D4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\final_sample.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E93690B2-5AEF-4211-B7E5-096185F676CE}</UniqueIdentifier>
+      <UniqueIdentifier>{63627354-D225-418A-92E3-24CC61E658C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\final_sample">
-      <UniqueIdentifier>{A8558662-9AEB-4240-AC5D-0CD5455D8850}</UniqueIdentifier>
+      <UniqueIdentifier>{77F52CBD-0504-465A-A2AA-5F6B2B1B9CB3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\final_sample\Caltrop.cpp">
       <Filter>Source\final_sample</Filter>
@@ -83,6 +83,12 @@
     <ClInclude Include="..\..\Source\final_sample\LaunchPad.h">
       <Filter>Source\final_sample</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\final_sample\Lootbox.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\final_sample\Lootbox.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\final_sample\PlayerHPWidget.cpp">
       <Filter>Source\final_sample</Filter>
     </ClCompile>
@@ -95,5 +101,21 @@
     <ClInclude Include="..\..\Source\final_sample\ProximityMine.h">
       <Filter>Source\final_sample</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\final_sample\Cubemon.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\final_sample\CubemonHP.h">
+      <Filter>Source\final_sample</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\final_sample\Cubemon.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\final_sample\CubemonHP.cpp">
+      <Filter>Source\final_sample</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

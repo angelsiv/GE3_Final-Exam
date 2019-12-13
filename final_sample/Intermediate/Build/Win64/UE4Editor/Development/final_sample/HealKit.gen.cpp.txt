@@ -1,5 +1,5 @@
-B:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Definitions.final_sample.h
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Intermediate\Build\Win64\UE4Editor\Development\final_sample\Definitions.final_sample.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-B:\Unreal Projects\GE3_Final-Exam\final_sample\Source\final_sample/HealKit.h
-b:\unreal projects\ge3_final-exam\final_sample\intermediate\build\win64\ue4editor\inc\final_sample\HealKit.generated.h
+C:\Unreal Projects\GE3_Final-Exam\final_sample\Source\final_sample/HealKit.h
+c:\unreal projects\ge3_final-exam\final_sample\intermediate\build\win64\ue4editor\inc\final_sample\HealKit.generated.h

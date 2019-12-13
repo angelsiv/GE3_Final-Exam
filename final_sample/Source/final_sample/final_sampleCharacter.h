@@ -83,8 +83,21 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
+	const float commonPercentage = 0.6f;
+	const float rarePercentage = 0.3f;
+	const float legendaryPercentage = 0.1f;
+
+	float SkillRadius = 500.0f;
+
 protected:
 	
+	void HPSorting();
+
+	void OnSkill();
+
+	//Receive item
+	void OnReceiveItem();
+
 	/** Fires a projectile. */
 	void OnFire();
 

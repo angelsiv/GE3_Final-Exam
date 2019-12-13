@@ -12,6 +12,8 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "PlayerHPWidget.h"
+#include "Engine.h"
+#include "Cubemon.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -125,6 +127,15 @@ void Afinal_sampleCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &Afinal_sampleCharacter::OnFire);
 
+	//Lootbox
+	PlayerInputComponent->BindAction("Loot", IE_Pressed, this, &Afinal_sampleCharacter::OnReceiveItem);
+
+	//Skill
+	PlayerInputComponent->BindAction("Skill", IE_Pressed, this, &Afinal_sampleCharacter::OnSkill);
+
+	//Sort
+	PlayerInputComponent->BindAction("Sort", IE_Pressed, this, &Afinal_sampleCharacter::HPSorting);
+
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
 
@@ -141,6 +152,93 @@ void Afinal_sampleCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAxis("TurnRate", this, &Afinal_sampleCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &Afinal_sampleCharacter::LookUpAtRate);
+}
+
+void Afinal_sampleCharacter::OnReceiveItem()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, TEXT("Looting..."));
+	auto random = FMath::FRand();
+
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, FString::SanitizeFloat(random));
+
+	if (random >= (1 - commonPercentage))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, TEXT("Received Common Item"));
+	}
+	else if (random >= (1 - commonPercentage - rarePercentage))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, TEXT("Received Rare Item"));
+	}
+	else if (random >= (1 - commonPercentage - rarePercentage - legendaryPercentage))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Cyan, TEXT("Received Legendary Item"));
+	}
+}
+
+void Afinal_sampleCharacter::OnSkill()
+{
+	auto filter = TArray<TEnumAsByte<EObjectTypeQuery> >();
+	auto ignore = TArray<AActor*>();
+	auto out = TArray<AActor*>();
+
+	if(UKismetSystemLibrary::SphereOverlapActors(GetWorld(), GetActorLocation(), SkillRadius, filter, ACubemon::StaticClass(), ignore, out))
+	{
+		for (auto Actor : out)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, Actor->GetActorLabel());
+		}
+
+		auto furthest = out[0];
+		for (int i = 1; i < out.Num(); i++)
+		{
+			if ((FVector::Distance(GetActorLocation(), out[i]->GetActorLocation()) > (FVector::Distance(GetActorLocation(), furthest->GetActorLocation()))))
+			{
+				furthest = out[i];
+			}
+		}
+		auto farCubemon = Cast<ACubemon>(furthest);
+		farCubemon->HP -= 0.1f;
+	}
+
+	/*
+	if (UKismetSystemLibrary::SphereOverlapActors(GetWorld(), GetActorLocation(), Radius, ObjectQuery, ActorFilter, ActorToIgnore, ActorOut)) {
+    ACubemon* FurthestCubemon = nullptr;
+    for (auto Actor : ActorOut) {
+        auto Cubemon = Cast<ACubemon>(Actor);
+        if (Cubemon != nullptr)
+        {
+            if (FurthestCubemon == nullptr)
+            {
+                FurthestCubemon = Cubemon;
+            }
+            else
+            {
+                auto DistanceFromFurthest = FVector::Distance(GetActorLocation(), FurthestCubemon->GetActorLocation());
+                auto DistanceFromCubemon = FVector::Distance(GetActorLocation(), Cubemon->GetActorLocation());
+                if (DistanceFromCubemon > DistanceFromFurthest)
+                {
+                    FurthestCubemon = Cubemon;
+                }
+            }
+        }
+    }
+    if (FurthestCubemon != nullptr)
+    {
+        FurthestCubemon->HP -= 0.1f;
+    }
+	}
+	*/
+}
+
+void Afinal_sampleCharacter::HPSorting()
+{
+	auto out = TArray<AActor*>();
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACubemon::StaticClass(), out);
+
+	for (auto Actor : out)
+	{
+
+	}
 }
 
 void Afinal_sampleCharacter::OnFire()
