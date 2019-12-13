@@ -1,5 +1,0 @@
-C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Intermediate\Build\Win64\UE4Editor\Development\G1213ANGE\Definitions.G1213ANGE.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Source\G1213ANGE/UnluckyTrap.h
-c:\unreal projects\ge3_final-exam\g1213ange\intermediate\build\win64\ue4editor\inc\g1213ange\UnluckyTrap.generated.h

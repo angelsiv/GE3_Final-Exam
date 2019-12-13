@@ -1,3 +1,0 @@
-C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Source\G1213ANGE\G1213ANGE.Build.cs
-C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Source\G1213ANGE.Target.cs
-C:\Unreal Projects\GE3_Final-Exam\G1213ANGE\Source\G1213ANGEEditor.Target.cs
